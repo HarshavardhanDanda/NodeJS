@@ -15,7 +15,7 @@ describe('Auth middleware', function() {
       'Not authenticated'
     );
   });
-
+//
   it('should throw an error if the authorization header is only one string', function() {
     const req = {
       get: function(headerName) {

@@ -89,7 +89,7 @@ exports.getPost = (req, res, next) => {
       next(err);
     });
 };
-
+//
 exports.updatePost = (req, res, next) => {
   const postId = req.params.postId;
   const errors = validationResult(req);
