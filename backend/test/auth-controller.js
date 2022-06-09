@@ -14,7 +14,7 @@ describe('Auth Controller - Login', function() {
         email: 'harsha@gmail.com',
         password: 'harsha076'
       }
-    };
+    };//
 
     AuthController.login(req, {}, () => {}).then(result => {
       expect(result).to.be.an('error');

@@ -69,7 +69,7 @@ exports.login = async (req, res, next) => {
     return err;
   }
 };
-
+//
 exports.getUserStatus = async (req, res, next) => {
   try {
     const user = await User.findById(req.userId);
